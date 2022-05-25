@@ -1,0 +1,179 @@
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
+
+
+    .navbar {
+        background: #000;
+    }
+    .logo-img {
+        color: #000;
+    }
+    a {
+        text-decoration: none;
+        color: #ffff;
+    }
+    .navbar-nav-icons{
+        color: #ffff;
+        display: grid;
+        grid-template-columns: 1fr  1fr  1fr  1fr;
+        gap: 1rem;
+    }
+    .navbar-nav-li{
+        color: rgb(148, 138, 138);
+        display: flex;
+        gap: 0.5rem;
+        transition: 0.5s;
+        padding: 1rem;
+    }
+    .nav-dark {
+        min-height: 8rem;
+    }
+    .navbar-nav > .nav-item > .nav-link {
+        font-family:'Oswald', sans-serif; 
+        font-size:2rem; 
+        font-weight:400; 
+        color:rgb(250, 250, 250);
+    }
+    .inner-main > h1 {
+        font-family:'Oswald', sans-serif; 
+        font-size:3rem; 
+        font-weight:400; 
+        text-transform: uppercase; 
+        color:black;
+    }
+    .inner-main > h3 {
+        font-family:'Oswald', sans-serif;
+        font-size:1rem; 
+        line-height:0; 
+        font-weight:400; 
+        letter-spacing:8px;
+        text-transform: uppercase;
+        color:black;
+     }
+    .inner-main > p {
+        font-family:'Source Sans Pro', sans-serif;
+        font-weight:400;
+        font-size:1rem;
+        line-height:24px;
+        }
+    .main-title {
+
+        margin:0 auto;
+        text-align:center;
+        margin-top: 3rem;
+    }
+    .fa-brands {
+        display: grid;
+        grid-template-rows: 1fr;
+    }
+    .icon-font{
+        font-family:'Source Sans Pro', sans-serif; 
+        font-weight:400; 
+        font-size:1.3rem;
+        line-height:24px;
+        }
+    .title-hr {
+        color: rgb(141, 141, 156);
+        opacity: 0.3;
+        margin: 1rem 0 1rem 0;
+        margin-bottom: 4rem;
+    }
+    .logo-img {
+        width: 4rem;
+        height: 3rem;
+        text-align: center;
+    }
+    .parallax{
+        padding-top: 200px;
+        padding-bottom: 200px; 
+        overflow: hidden;
+        position: relative; 
+        width: 100%;
+        background-image: url(/assets/img/wallpaper.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+    } 
+    .block { 
+        padding: 1rem; 
+        width:820px; 
+        margin:0 auto; 
+        text-align:justify;
+    }
+        .exp-ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    } 
+        .nav-item:hover, .logo-img:hover{
+        background:rgb(0, 117, 49); 
+        transition: 0.4s;
+    }
+    .exp-ul-head {
+        display: flex;
+        gap: 2rem;
+        justify-content: space-around;
+    }
+    .main-info {
+        padding: 4rem;
+    }
+    hr {
+        color: rgb(11, 68, 28);
+    }
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+    }
+    .screen-ar{
+        display: grid;
+        border: 1px solid red;
+        padding: 2rem;
+        gap: 2rem;
+    }
+     .main-info {
+        background: rgb(124, 122, 122);
+    }
+       .art {
+        text-align: center;      
+    }
+    .art-img {
+        border: 2px solid rgb(46, 45, 45);
+        display: block;
+        box-shadow:0 1px 1px grey;
+    }
+    .art-img-g {
+        border: 2px solid rgb(80, 76, 76);
+        box-shadow:0 1px 1px rgb(87, 85, 85);
+    }
+    .videos {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+        border: 1px solid red;
+    }
+    iframe {
+        max-width: 540;
+        max-height: 315;
+    }
+    #myBtn {
+        display: none; /* Hidden by default */
+        position: fixed; /* Fixed/sticky position */
+        bottom: 20px; /* Place the button at the bottom of the page */
+        right: 30px; /* Place the button 30px from the right */
+        z-index: 99; /* Make sure it does not overlap */
+        border: none; /* Remove borders */
+        outline: none; /* Remove outline */
+        background-color:#198754;; /* Set a background color */
+        color: white; /* Text color */
+        cursor: pointer; /* Add a mouse pointer on hover */
+        padding: 15px; /* Some padding */
+        border-radius: 10px; /* Rounded corners */
+        font-size: 18px; /* Increase font size */
+      }
+      
+      #myBtn:hover {
+        background-color: #555; /* Add a dark-grey background on hover */
+      }
